@@ -31,11 +31,12 @@
 # Exercise 5
 # ---------------------------
 
-# data_type = "menq gitenq pytonic str, int, bool, NoneType, float. " \
-#             "Pythonum ka mi dzev popoxakan haytararelu grum enq " \
-#             "popoxakani anuny ev veragrum enq petqakan arjeqy " \
-#             "orinak  // a = 45 \\\ "
-#
+# data_type = "Es gitem pytonic es data typery str, int, bool, NoneType, float. " \
+#             "Popoxakani anuny grum enq snake caseov aysinqn amen hajord " \
+#             "bari skzbic dnum enq _ nor grum enq bary chy hashvac arajin bary" \
+#             "orinak snake_case." \
+#             "Ev karox enq grel camel casov aysinqn popoxakani anuny grum enq kpac" \
+#             "ev amen hajord bari arajin tary grum enq mecatar orinak snakeCase"
 # print(data_type)
 
 # ---------------------------
@@ -63,3 +64,10 @@
 # ---------------------------
 
 
+# Research
+
+# 1. % talis es mez mnacordy aysinqn 5 % 3 = 2
+# 2. * ays operatory vercnum e stringy nayum e te inch tvov enq bazmapatkel ev ayd qanaki gumarum e irar
+# aysinqn "ad" * 5 = "adadadadad"
+# 3. Popoxakany karox kazmvel tareric tveric ev yndgcelu nshanneric.
+# Popoxakani anuny chi karox sksvel tvov ev chi karox ir mej unenal hatuksimvolner
