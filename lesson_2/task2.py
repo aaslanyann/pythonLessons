@@ -89,3 +89,36 @@
 # print(total)
 
 # -------------------
+
+# Reserach
+
+# 1
+#  ------
+
+# bar = "Karen"
+# print(bar[-1:])
+
+# ------
+
+# 2
+# ------
+
+# "strip metody stringi skzbic ev verjic jnjuma probelnery, tabluyacyan ev toxadarcery"
+# text = "  This is a string.  "
+# stripped_text = text.strip()
+# print(stripped_text)
+
+# ------
+
+# 3
+# ------
+
+# "Da mez tocuma toxadarc anenq aranc toxadarci nshani"
+
+# print("""Lorem Ipsum is  ...  dummy text of the printing and typesetting industry.
+# 	   Lorem Ipsum has been the industry's standard dummy text ever since the ...s,
+# 	   when an unknown printer took a ...  of type and scrambled it to make a type
+# 	   specimen book""")
+
+
+# ------
