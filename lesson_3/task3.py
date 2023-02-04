@@ -73,9 +73,8 @@
 # Exercise 7
 # --------------
 
-# numbers_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-# numbers_list.sort(key=lambda x: x%2)
-# print(sum(numbers_list[: 5]))
+numbers_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(sum(numbers_list[1: :2]))
 
 # --------------
 
