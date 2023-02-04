@@ -1,7 +1,7 @@
 # Exercise 1
 # -------------------
 
-# print(1 + 2.0 + 3) #type = float
+# print(type(1 + 2.0 + 3)) #type = float
 
 # kveradarcni float vorovhetev 2.0 floata
 
