@@ -59,7 +59,7 @@
 # --------------
 
 # users_list = ["Vazgen", "Chris Tacker", "Nikola Tesla"]
-# user_name_remove = input("""Your users ["Vazgen", "Chris Tacker", "Nikola Tesla"]'
+# user_name_remove = input(f"""Your users {users_list}
 # 		'who do you want to remove ? """)
 #
 # users_list.remove(user_name_remove)
