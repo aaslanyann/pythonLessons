@@ -59,8 +59,8 @@
 # --------------
 
 # users_list = ["Vazgen", "Chris Tacker", "Nikola Tesla"]
-# user_name_remove = input(f"""Your users {users_list}
-# 		'who do you want to remove ? """)
+# user_name_remove = input(f"""Your users {users_list}.
+# 		Who do you want to remove ? """)
 #
 # users_list.remove(user_name_remove)
 # print(f"""User {user_name_remove.upper()} is removed
@@ -86,4 +86,5 @@
 # 2. del-y karuma jnji listi andam naev popoxakan isk remove miayn listic
 
 # --------------
+
 
