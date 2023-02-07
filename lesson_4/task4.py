@@ -45,11 +45,10 @@
 # -------------
 
 # users_tuple = ("Lilit", "Aren", "Janna", "Samvel (Sam)", "Gohar", "Armen", "Luiza")
-#
-
-# ete tuple mej ka list karox enq listi valunery poxel isk uxaki poxel value chenq karox
-
-
+# names_list = list(users_tuple)
+# names_list.append("Vaxo")
+# users_tuple = tuple(names_list)
+# print(users_tuple)
 
 # -------------
 
