@@ -1,8 +1,8 @@
 # Exercise 1
 # -------------
 
-"copy-i u deepcopy-i tarberutyuny nranuma vor copyn listy copya anum mi lvl aysinyn vor"
-"lini nested list ira meji listery copy chi anelu toxelua iranc referancy nuyny"
+"""copy-i u deepcopy-i tarberutyuny nranuma vor copyn listy copya anum mi lvl aysinyn vor
+lini nested list ira meji listery copy chi anelu toxelua iranc referancy nuyny"""
 
 # -------------
 
@@ -77,4 +77,6 @@
 # ashxatuma listeri het, tuple-neri het, ev str-neri het
 
 # -------------
+
+
 
