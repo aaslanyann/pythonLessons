@@ -1,0 +1,2 @@
+user 1: first_name = Jorj, last_name = Bush, age = 55
+user 2: first_name = James, last_name = Bond, age = 100
