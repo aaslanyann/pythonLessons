@@ -67,10 +67,9 @@
 #
 # file_name = input('which file do you want to read? ')
 # with open(f"{file_name}.txt", "r") as need_file:
-# 	need_file = open(f"{file_name}.txt", "r")
 # 	print(need_file.read())
 # 	need_file.close()
-#
+
 
 # -----------------
 
@@ -105,7 +104,7 @@
 # Research
 # -----------------
 # 1
-# """Stuguma seti mej arkayutyuny yndhanur andamneri other (tuple, list str) hajordakanutyan het
+# """Stuguma seti mej arkayutyuny yndhanur andamneri other (tuple, list, str, set) hajordakanutyan het
 #    orinak"""
 # set_x = {0, 1, 2, 3, 4}
 # list_y = [5, 6, 7, 8, 9]
