@@ -79,7 +79,7 @@
 # Research
 # --------------
 
-"""Enumarate function-ov karoxanum enq vercnuel elementi indexy ev arjeqy"""
+"""Enumarate function-ov karoxanum enq vercnuel elementi indexy ev arjeqy. Sarquma 2 indexanoc tuple mejy index u arjeqy"""
 
 
 # --------------
