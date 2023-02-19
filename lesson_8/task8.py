@@ -2,9 +2,16 @@
 # ---------------
 
 # last_names = ['Adams','Allen',"Harutyunyan",'Brooks','Davidson','Sargsyan','Jenkins']
-# armenian_last_names = [elem for elem in last_names if elem.find("yan") + 1]
+# armenian_last_name = []
+# ind = 0
 #
-# print(armenian_last_names)
+# while ind < len(last_names):
+#     elem = last_names[ind]
+#     if elem[len(elem) - 3 :] == "yan" :
+#         armenian_last_name.append(elem)
+#     ind += 1
+#
+# print(armenian_last_name)
 
 # ---------------
 
@@ -29,16 +36,13 @@
 # ---------------
 # alpabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 # numbered_dict = {}
-
-# for ind in range(0, len(alpabet)):
-#     numbered_dict[alpabet[ind]] = ind
+# x = 1
 #
+# for ind in alpabet:
+#     numbered_dict[x] = ind
+#     x += 2
 # print(numbered_dict)
 
-# Enumerate kardaluc heto
-# resultDictionary = dict((key,value) for key,value in enumerate(alpabet))
-#
-# print(resultDictionary)
 
 # ---------------
 
@@ -65,13 +69,11 @@
 # length = len(alpabet) - 1
 #
 # for ind in range(length // 2) :
-#     clone = alpabet[ind]
-#     alpabet[ind] = alpabet[length - ind]
-#     alpabet[length - ind] = clone
+#     alpabet[ind], alpabet[length - ind] = alpabet[length - ind], alpabet[ind]
 #
 # print(alpabet)
-#
-#
+
+
 
 # ---------------
 
