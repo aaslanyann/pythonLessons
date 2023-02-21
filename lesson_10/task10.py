@@ -21,25 +21,29 @@
 # long_word = 'dzaynaskavarakavacharanoc'
 # last_names = ("Watson", "Richards", "Richardson", "Saunders", "Watson", "Young", "Saunders")
 #
-# def sequence_object(multiplicity):
-#     if type(multiplicity) == "int":
+# def identical_elements(sequence_object):
+#     if type(sequence_object) == "int":
 #         print('please send sequence object')
 #         return
 #
-#     length = len(multiplicity)
-#     result = []
+#     result = set()
+#     length = len(sequence_object)
+#     ind = 0
+#     x = ind + 1
 #
-#     for i in range(length):
-#
-#         for j in range(i + 1, length):
-#
-#             if multiplicity[i]  == multiplicity[j]:
-#                 result.append(multiplicity[i])
-#                 break
-#
+#     while ind < length - 1:
+#         if sequence_object[ind] == sequence_object[x]:
+#             result.add(sequence_object[ind])
+#             ind += 1
+#             x = ind + 1
+#         elif x == length - 1:
+#             ind += 1
+#             x = ind + 1
+#             continue
+#         x += 1
 #     return result
 #
-# print(sequence_object(last_names))
+# print(identical_elements(last_names))
 # ---------------
 
 
@@ -65,18 +69,22 @@
 # Exercise 4
 # ---------------
 
+
+
 # def find_prime_numbers(start, end) :
 #     result = []
-#     def isPrime(number):
-#         for elem in range(2, number // 2 + 1):
-#             if number % elem == 0:
-#                 return False
-#         return True
+#
 #     for num in range(start, end):
-#         if isPrime(num) :
+#         if isPrime(num):
 #             result.append(num)
 #
 #     return result
+#
+# def isPrime(number):
+#     for elem in range(2, number // 2 + 1):
+#         if number % elem == 0:
+#             return False
+#     return True
 #
 # print(find_prime_numbers(1,100))
 
@@ -88,18 +96,16 @@
 # ---------------
 
 # def fibon_series(n):
-#     result = [0,1]
+#     fib_num = [0,1]
 #     ind = 1
 #     flag = True
-#     while flag:
-#         if result[ind] + result[ind - 1] >= n:
-#             flag = False
-#             break
-#         result.append(result[ind] + result[ind - 1])
+#     while len(fib_num) < n:
+#         fib_num.append(fib_num[ind] + fib_num[ind - 1])
 #         ind += 1
-#     return result
 #
-# print(fibon_series(10))
+#     return fib_num[len(fib_num) - 1]
+#
+# print(fibon_series(7))
 # ---------------
 
 
@@ -128,6 +134,6 @@ ev kareli e ays erkusy irar het ogragorcel
 def foo(*args, **kwargs):
     print(kwargs, args)
 
-foo(1,2,3,4,5, name="Aghvan", last_name="Aslanyan")
+# foo(1,2,3,4,5, name="Aghvan", last_name="Aslanyan")
 
 # -------------
