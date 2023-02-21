@@ -103,9 +103,9 @@
 #         fib_num.append(fib_num[ind] + fib_num[ind - 1])
 #         ind += 1
 #
-#     return fib_num[len(fib_num) - 1]
+#     return fib_num[n - 1]
 #
-# print(fibon_series(7))
+# print(fibon_series(14))
 # ---------------
 
 
