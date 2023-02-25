@@ -1,58 +1,47 @@
 # Exercise 1
 # ---------------
-# users_list = []
-# list_key = []
-# data_list = []
-# ind = 0
+
+# users = []
+# dict_key = []
+# user_data = []
+# my_info = "Aghvan,Aslanyan,19,Apex,Metropolis,Top-Gun Maverick,Guf,Pringles"
+#
+# with open("db.txt", "r") as txt:
+#     user_data = txt.readlines()
+#     dict_key = user_data[0].strip().split(",")
+#     user_data.pop(0)
+#
+# user_data.append(my_info)
 #
 # # 1.1
-# with open("db.txt", "r") as text:
-#     data_list = text.readlines()
-#     list_key = data_list[0].strip().split(',')
-#     print(list_key)
-#     data_list.pop(0)
+# for elem in user_data:
+#     users.append(dict(zip(dict_key, elem.split(","))))
 #
-# for elem in data_list:
-#     result = {}
-#     for value in elem.split(","):
-#         result[list_key[ind]] = value
-#         ind += 1
-#     users_list.append(result)
-#     ind = 0
 #
 # # 1.2
 #
-# def foo(users_list, **kwargs) :
-#     result = {}
-#     for elem in kwargs.keys():
-#         result[elem] = kwargs[elem]
-#     users_list.append(result)
-#     return users_list
+# def foo(user_list, **kwargs):
+#     key = list(kwargs.keys())[0]
+#     dict_key.append(key)
+#     for ind, elem in enumerate(kwargs[key],0):
+#         user_list[ind][key] = elem
+#     return user_list
 #
-#
-# users_list = foo(users_list, first_name="Aghvan", last_name="Aslanyan", age=19,
-#           profession="supermen",
-#           country="Metropolis",
-#           favorite_film="Top-Gun Maverick",
-#           favorite_singer="Guf",favorite_chips="Doritos")
+# users = foo(users, favorite_car=["BMW", "Range Rover", "Volga"])
 #
 # # 1.3
+# lines = []
+# lines.append(",".join(dict_key))
 #
-# list_for_db = []
+# for elem in users:
+#     lines.append(",".join(elem.values()).strip())
 #
-# for elem in users_list:
-#     list_for_db.append(f"""\n
-# first_name={elem[list_key[0]]}, last_name={elem[list_key[1]]},
-# age={elem[list_key[2]]}, profession={elem[list_key[3]]}
-# country={elem[list_key[4]]}, favorite_film={elem[list_key[5]]},
-# favorite_singer={elem[list_key[6]]} ,  favorite_chips={elem[list_key[7]]}""")
-#
-# with open("db.txt", "a") as text:
-#     text.writelines(list_for_db)
-#
+# with open("db.txt", "w") as txt:
+#     for line in lines:
+#         txt.write(line.strip() + '\n')
+
 
 # ---------------
-
 
 # Exercise 2
 # ---------------
