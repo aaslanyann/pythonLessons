@@ -1,5 +1,4 @@
-first_name,last_name,age,profession,country,favorite_film,favorite_singer,favorite_chips,favorite_car
-Smbat,Paloyan,23,Jarvis,Gothem,Dark_Knight,Snoop_doggy_dogg,Lays_paprika(riflenniy)
-,BMW
-Hovhannes,Stepanyan,25,Master_shifu,221B_Baker_Street,Sherlock,Oxxxymiron,Lays(mec),Range Rover
-Aghvan,Aslanyan,19,Apex,Metropolis,Top-Gun Maverick,Guf,Pringles,Volga
+first_name,last_name,age,profession,country,favorite_film,favorite_singer,favorite_chips,favourite_car,boy
+Smbat,Paloyan,23,Jarvis,Gothem,Dark_Knight,Snoop_doggy_dogg,Lays_paprika(riflenniy),Range Rover,1.75
+Hovhannes,Stepanyan,25,Master_shifu,221B_Baker_Street,Sherlock,Oxxxymiron,Lays(mec),BMW,1.76
+Aghvan,Aslanyan,19,Apex,Metropolis,Top-Gun Maverick,Guf,Pringles,Aston Martin,1.78

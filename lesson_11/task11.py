@@ -1,45 +1,38 @@
 # Exercise 1
 # ---------------
-
 # users = []
-# dict_key = []
-# user_data = []
 # my_info = "Aghvan,Aslanyan,19,Apex,Metropolis,Top-Gun Maverick,Guf,Pringles"
 #
 # with open("db.txt", "r") as txt:
 #     user_data = txt.readlines()
-#     dict_key = user_data[0].strip().split(",")
-#     user_data.pop(0)
-#
-# user_data.append(my_info)
+#     user_data.append(my_info)
 #
 # # 1.1
-# for elem in user_data:
-#     users.append(dict(zip(dict_key, elem.split(","))))
-#
+# for ind, elem in enumerate(user_data,0):
+#     if ind != 0:
+#         users.append(dict(zip(user_data[0].strip().split(","), user_data[ind].strip().split(","))))
 #
 # # 1.2
-#
 # def foo(user_list, **kwargs):
-#     key = list(kwargs.keys())[0]
-#     dict_key.append(key)
-#     for ind, elem in enumerate(kwargs[key],0):
-#         user_list[ind][key] = elem
-#     return user_list
+#     for elem in kwargs:
+#         for ind, val in enumerate(kwargs[elem], 0):
+#             users[ind][elem] = val
 #
-# users = foo(users, favorite_car=["BMW", "Range Rover", "Volga"])
+#
+# foo(users, favourite_car=["Range Rover","BMW","Aston Martin"], boy=['1.75','1.76','1.78'])
 #
 # # 1.3
+#
 # lines = []
-# lines.append(",".join(dict_key))
+# lines.append(",".join(list(users[0].keys())).strip())
 #
 # for elem in users:
-#     lines.append(",".join(elem.values()).strip())
+#     lines.append(",".join(list(elem.values())).strip())
+#
 #
 # with open("db.txt", "w") as txt:
 #     for line in lines:
-#         txt.write(line.strip() + '\n')
-
+#         txt.write(line + "\n")
 
 # ---------------
 
@@ -93,7 +86,29 @@ Orinak*
 double = lambda x: x*2
 # print(double(5))
 
-
-
-
 # ---------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
