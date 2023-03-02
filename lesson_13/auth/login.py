@@ -6,10 +6,11 @@ def authorization():
 
 def checkEmailAndPass(email,password):
     need_user = []
-    with open("users.txt", "r") as file:
+    with open("users.txt", "r") as user_data:
+
         try:
-            for ind, elem in enumerate(file.readlines()[1:],0):
-                list_of_values = elem.split(",")
+            for user in user_data.readlines()[1:]:
+                list_of_values = user.split(",")
                 if email in list_of_values and password in list_of_values:
                     need_user = list_of_values
             if need_user:

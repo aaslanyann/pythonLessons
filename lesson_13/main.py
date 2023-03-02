@@ -4,7 +4,7 @@
 """
 mer cody kkangni u cuyc kta error
 """
-
+import math
 
 # -------------
 
@@ -26,7 +26,7 @@ Ev try exceptionov
 
 # Exercise 3
 # -------------
-# from auth import login,registration
+# from auth import login, registration
 #
 # variant = input("Registration or Login ").lower().strip()
 #
@@ -36,3 +36,15 @@ Ev try exceptionov
 #     login.authorization()
 
 # -------------
+
+
+
+# Research
+# 1.
+# raise Exception("aaaa")
+
+# 2.
+import math
+# math.sqrt() tvic armata hanum
+# math.pow(4,4) tivy astichanna cuyc talis
+# math.ceil(4.1) tivy kloracnuma depi mec

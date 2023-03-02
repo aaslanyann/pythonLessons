@@ -22,7 +22,6 @@ def regist_user(user_info):
 
 
 def check_email(email,list):
-    print(list)
     for elem in list:
         if email in elem.split(","):
             return True
