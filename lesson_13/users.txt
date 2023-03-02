@@ -1,0 +1,4 @@
+email,password,first_name,last_name
+smbatpaloyan@gmail.com,123456789,Smbat,Paloyan
+27626hovo@gmail.com,12345,Hovhannes,Stepanyan
+axvan2005@gmail.com,789789as,Aghvan,Aslanyan
