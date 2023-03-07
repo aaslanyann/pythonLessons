@@ -61,11 +61,14 @@ ete function-i mej ka yield bary uremn da function generatora
 
 # def is_symetric(word):
 #     length = len(word)
-#     if word[: length // 2] == word[length - length // 2:][::-1]:
-#         return True
-#     return False
+#     ind = 0
+#     while ind < length // 2:
+#         if word[ind] != word[length - ind - 1]:
+#             return False
+#         ind += 1
+#     return True
 #
-# print(is_symetric("abcba"))
+
 
 # --------------
 
