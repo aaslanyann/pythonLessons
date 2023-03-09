@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ead6c9e-5355-43db-a559-c2e61d195918" name="Changes" comment="" />
+    <list default="true" id="7ead6c9e-5355-43db-a559-c2e61d195918" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -188,7 +190,7 @@
       <workItem from="1677750343890" duration="8165000" />
       <workItem from="1677781845728" duration="4455000" />
       <workItem from="1677950245282" duration="1517000" />
-      <workItem from="1678198028909" duration="10500000" />
+      <workItem from="1678198028909" duration="11020000" />
     </task>
     <servers />
   </component>
@@ -209,7 +211,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonHomeWork$main.coverage" NAME="main Coverage Results" MODIFIED="1678198102698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson_13" />
     <SUITE FILE_PATH="coverage/PythonHomeWork$task3.coverage" NAME="task3 Coverage Results" MODIFIED="1675618654241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson_3" />
-    <SUITE FILE_PATH="coverage/PythonHomeWork$task14.coverage" NAME="task14 Coverage Results" MODIFIED="1678212290664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson_14" />
+    <SUITE FILE_PATH="coverage/PythonHomeWork$task14.coverage" NAME="task14 Coverage Results" MODIFIED="1678216566920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson_14" />
     <SUITE FILE_PATH="coverage/PythonHomeWork$task6.coverage" NAME="task6 Coverage Results" MODIFIED="1676123405564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson_6" />
     <SUITE FILE_PATH="coverage/PythonHomeWork$task7.coverage" NAME="task7 Coverage Results" MODIFIED="1676399316472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson_7" />
     <SUITE FILE_PATH="coverage/PythonHomeWork$task4.coverage" NAME="task4 Coverage Results" MODIFIED="1675795937303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson_4" />

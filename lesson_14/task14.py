@@ -29,9 +29,9 @@ ete function-i mej ka yield bary uremn da function generatora
 #     a, b = 0, 1
 #     count = 0
 #     while count < max:
-#         yield a
 #         a, b = b, b + a
 #         count += 1;
+#     yield a
 #
 #
 # for num in fibonacii(25):
@@ -44,12 +44,12 @@ ete function-i mej ka yield bary uremn da function generatora
 # Exercise 4
 # --------------
 
-# def custom_range(start, end):
+# def custom_range(start, end, step):
 #     while start < end:
 #         yield start
-#         start += 1
+#         start += step
 #
-# gen = custom_range(0, 25)
+# gen = custom_range(0, 25, 4)
 #
 # for elem in gen:
 #     print(elem)
@@ -101,7 +101,6 @@ string, list, tuple, range
 """
 1.iterable objectnery karan unenan xary dasavorvatyuutyun isk sequence objectnery unen iranc hajordakanutyuny.
 2.iterable objectneri erkarutyuny misht fixvac chi isk sequence objectneriny misht fixvac e
-3.iterable objectnery karan durs beren petq exac elementy isk sequence objectneri sax elementnery hishoxutyan meja pahvum aysinqn arden ka
 4.bolor sequence data typery iterable en bayc voch bolor iterable data typernen sequence data type
 """
 
