@@ -3,7 +3,7 @@
 
 
 # list_text = ['abcba', 'abcbca', 'abcbt', '121', '123454321', '5551555']
-# palindrom_text = list(filter(lambda elem: elem == "".join(list(reversed(elem))), list_text))
+# palindrom_text = list(filter(lambda elem: elem == elem[::-1], list_text))
 # print(palindrom_text)
 
 # --------------
