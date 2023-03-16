@@ -52,3 +52,14 @@
 #             data_txt.write(f"\n{','.join(user_data)}")
 #     except Exception as e:
 #         print(e)
+
+
+# Research
+# ---------------------
+"""
+functools-y talisa mez mi qani ogtakar function-er function-eri het ashxatelu hamar
+dranc tvum wraps-y.
+Wraps function-y decoratora vory heshtacnuma decorator sarqely.
+"""
+
+# ---------------------
