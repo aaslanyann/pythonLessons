@@ -1,0 +1,7 @@
+first_name,last_name,email,password,age,role,country
+Smbat,Paloyan,smbatpaloyan@gmail.com,smbat1234,23,super_admin,Armenia
+Hovhannes,Stepanyan,hovo27626@gmail.com,hovo1234,25,super_admin,Armenia
+Vardan,Vardanyan,vardan@gmail.com,vardan1234,18,admin,Germany
+Jorj,Bush,jorj@gmail.com,jorj1234,90,admin,USA
+Jorj,Bush jr,bushjr@gmail.com,bush1234,60,user,USA
+Aghvan,Aslanyan,axvan2005@gmail.com,789789as,19,user,Armenia

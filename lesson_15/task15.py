@@ -29,7 +29,7 @@
 # numbers = [5,7,9,12,4567,45,21,45,7896,1234,9984,412,354,74]
 # 3.1
 
-# from functools import reduce
+from functools import reduce
 
 # def find_max_num(list):
 #     max = list[0]
@@ -57,3 +57,6 @@ Reduce ogragorceluc araj petq e import anel functools-ic
 """
 
 # ----------------
+
+
+
