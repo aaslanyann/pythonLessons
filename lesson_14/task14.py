@@ -86,7 +86,7 @@ ete function-i mej ka yield bary uremn da function generatora
 # 1.
 """
 __iter__ methody special methoda vorov haskanum objecty karelia ogtagorcel vorpes iterator te che.
-Inqy veradarcnuma iterator-object vori vorov karanq franq for
+Inqy veradarcnuma iterator-object vori vrov karanq franq for
 """
 # 2.
 """

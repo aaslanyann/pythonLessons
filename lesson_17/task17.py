@@ -79,3 +79,9 @@ pattern = re.compile(r'\d+')
 
 
 # --------------------
+
+
+li = [1,2,3,1,4]
+
+print(li.copy())
+print(li)

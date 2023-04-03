@@ -108,7 +108,7 @@
 #    orinak"""
 # set_x = {0, 1, 2, 3, 4}
 # list_y = [5, 6, 7, 8, 9]
-# set_x.isdisjoint(list_y)
+# print(set_x.isdisjoint(list_y))
 
 # 2
 """Tarbervum en nranov ete uzum enq 

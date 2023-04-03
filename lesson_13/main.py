@@ -27,7 +27,6 @@ Ev try exceptionov
 # Exercise 3
 # -------------
 # from auth import login, registration
-#
 # variant = input("Registration or Login ").lower().strip()
 #
 # if variant == "registration":
