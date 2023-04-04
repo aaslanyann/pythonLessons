@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ead6c9e-5355-43db-a559-c2e61d195918" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/OOP/lesson_1/task1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_13/auth/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_13/auth/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_13/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_13/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_14/task14.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_14/task14.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/task17.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_17/task17.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_3/task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_3/task3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_6/task6.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_6/task6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_8/task8.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_8/task8.py" afterDir="false" />
-    </list>
+    <list default="true" id="7ead6c9e-5355-43db-a559-c2e61d195918" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -234,7 +224,7 @@
       <workItem from="1679595497804" duration="1009000" />
       <workItem from="1679673912523" duration="3188000" />
       <workItem from="1680367736122" duration="655000" />
-      <workItem from="1680549341291" duration="6107000" />
+      <workItem from="1680549341291" duration="6262000" />
     </task>
     <servers />
   </component>

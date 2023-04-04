@@ -18,11 +18,11 @@
 #         print("stop")
 #         self.started = False
 #
-#     def equipment(self):
-#         print(self.brand, self.model)
+# def equipment(self):
+#     return f"{self.brand}, {self.model}"
 #
-#     def old_age(self):
-#         print(time.localtime().tm_year - self.year)
+# def old_age(self):
+#     return time.localtime().tm_year - self.year
 #
 #     def change_color(self, col):
 #         self.color = col
