@@ -16,12 +16,12 @@ class Car:
 
 
     @classmethod
-    def change_wheel(self):
-        self.left_wheel = False
+    def change_wheel(self, flag):
+        self.left_wheel = flag
 
     @staticmethod
-    def change_wheel_static():
-        Car.left_wheel = False
+    def change_wheel_static(flag):
+        Car.left_wheel = flag
 
 
 
