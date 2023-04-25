@@ -89,6 +89,21 @@ __call__ metody ashxatuma en jamanak erb objecty kancum enq functioni pes
 erb vor objectnery hamematum es irar het ashxatum en __ls__ (less then) u __gt__ (greater then) metodnery
 """
 
+# 3
+"""
+Da mexanizma vori ognutyamb karoxanum enq override anenq mer parent classi
+miji methody mer child classum.
+"""
+
+# 4
+"""
+parameters or function overloading - Da cragravorman lezvi mexanizm e vory tuyl e
+talis hamakargel mi qani function nuyn anunov bayc tarber parametrerov, aysinqn
+tarber qanaki parametrerov u argumentneri tiperov. Erb vor function kanchvuma 
+voroshaki parametrerov kompilyatory kam interpretatory voroshuma vor function overloading-y
+petqa kanchvi himnvac argumentneri qanakic ev argumentneri typic. Bayc qani vor pythonum
+es mexanizma chka kareli e motavor mexanizm grel if-i mijocov
+"""
 
 
 
