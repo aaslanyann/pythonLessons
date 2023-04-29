@@ -93,7 +93,7 @@ class Hercules(Zeus):
                 continue
 
             for member_name, member in cls.__dict__.items():
-                if member_name.startswith("_") and not member_name.startswith("__"):
+                if member_name.startswith("_") and not member_name.startswith(f"_{cls.__name__}") and not member_name.startswith("__"):
                     members.append((member_name, member))
 
         return members
@@ -101,11 +101,12 @@ class Hercules(Zeus):
     def get_private(self):
         members = []
         for cls in self.__class__.mro():
+
             if cls == object:
                 continue
 
             for member_name, member in cls.__dict__.items():
-                if member_name.startswith("__"):
+                if member_name.startswith(f"_{cls.__name__}"):
                     members.append((member_name, member))
 
         return members
@@ -116,7 +117,7 @@ txa = Hercules("Valod", 2, 1000)
 
 # print(txa.get_public())
 # print(txa.get_protected())
-print(txa.get_private())
+# print(txa.get_private())
 
 
 

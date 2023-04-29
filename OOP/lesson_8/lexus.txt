@@ -1,0 +1,6 @@
+1,Lexus_IS,Sedan,Gasoline
+2,Lexus_GS,Sedan,Hybrid
+3,Lexus_GX,SUVS,Gasoline
+4,Lexus_ES,Sedan,Gasoline
+5,Lexus_LX,SUVS,Diesel
+6,Lexus_RX,SUVS,Gasoline

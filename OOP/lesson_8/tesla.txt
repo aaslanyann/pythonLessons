@@ -1,0 +1,6 @@
+1,Model_S,Sedan,Electric
+2,Roadster,Coupe,Electric
+3,Model_3,Sedan,Electric
+4,Cybertruck,Truck,Electric
+5,Model_Y,SUVS,Electric
+6,Model_X,SUVS,Electric
