@@ -115,10 +115,11 @@ class Hercules(Zeus):
 
 txa = Hercules("Valod", 2, 1000)
 
-# print(txa.get_public())
+print(txa.get_public())
 # print(txa.get_protected())
 # print(txa.get_private())
 
+# print(txa.__dict__.items())
 
 
 
