@@ -15,9 +15,11 @@ isk __del__ kanchvuma erb vor jnjum esobjecty
 # import os
 #
 # class FileError(Exception):
-#     # def __str__(self):
-#     #     return "Default error"
-#     pass
+#
+#     def __init__(self, err_text = "Default message"):
+#         self.err_text = err_text
+#     def __str__(self):
+#         return self.err_text
 #
 #
 #
@@ -89,10 +91,9 @@ isk __del__ kanchvuma erb vor jnjum esobjecty
 #
 # try:
 #     print(tesla.child_file)
-#     print(lexus.child_file)
+#     # print(lexus.child_file)
 #
 # except FileError as e:
 #     print(e)
-# print(fail.file)
 
 # -------------------
