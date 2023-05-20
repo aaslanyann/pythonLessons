@@ -57,9 +57,7 @@ class User:
             return True
 
     def do_login(self):
-        if self.login != "admin":
-            raise Exception("Invalid User")
-        elif self.password != "admin":
+        if self.login != "admin" or self.password != "admin":
             raise Exception("Invalid User")
 
         return True
