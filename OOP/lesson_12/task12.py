@@ -31,10 +31,11 @@ class M:
         instance.name = name
         instance.lastname = lastName
 
-        return instance
+        return [1,2,3,4,5]
 
     def __init__(self, name, lastname):
         self.age = 19
+        print("adaaa")
 
 obj = M("Aghvan", "Aslanyan")
 
@@ -70,3 +71,12 @@ talis karavarel nor examplneri ashxatanqy.
 
 
 
+class MyClass:
+    def __new__(cls):
+        return [1, 2, 3]  # Возвращаем список
+
+    def __init__(self):
+        print("Метод __init__ вызван")
+        print(self)  # Выводим список
+
+obj = MyClass()  # Создаем объект класса

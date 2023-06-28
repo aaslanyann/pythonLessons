@@ -126,6 +126,23 @@ print(txa.get_public())
 # ----------------
 
 
+# Research
+# -------------
+# 1
+
+"""
+__slots__- ira mej grvaca te inch anunov atributner karas kces classi instansin
+"""
+
+# 2
+
+"""
+propertyn da  decoratora vory ogragorcvuma stexcel attributner voronq unen getter, setter, deleter
+"""
+
+
+# -------------
+
 
 
 
