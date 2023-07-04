@@ -3,7 +3,7 @@
 
 """
 __delete__ kanchvuma atribut jnjelu jamanak
-isk __del__ kanchvuma erb vor jnjum esobjecty
+isk __del__ kanchvuma erb vor jnjum es objecty
 """
 
 # -------------------
