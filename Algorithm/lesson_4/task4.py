@@ -49,21 +49,21 @@ uxaki 4-y 2-i het kpoxi u verj
 
 # lst = [4, 2, 6, 7, 7]
 #
-# # order must be decrease or growth
+# # order must be asc or desc
 # def bubble_sort(lst, order):
 #   for cnt in range(1, len(lst)):
 #     for i in range(len(lst) - cnt):
-#       if order == "decrease":
+#       if order == "desc":
 #         if lst[i] < lst[i + 1]:
 #           lst[i], lst[i + 1] = lst[i + 1], lst[i]
-#       elif order == "growth":
+#       elif order == "asc":
 #         if lst[i] > lst[i + 1]:
 #           lst[i], lst[i + 1] = lst[i + 1], lst[i]
 #   return lst
 #
 #
-# print(bubble_sort(lst, "decrease"))
-
+# print(bubble_sort(lst, "asc"))
+#
 
 
 
@@ -77,5 +77,12 @@ uxaki 4-y 2-i het kpoxi u verj
 
 
 
+# Research
+# -------------------------
 
+"""
+sor() metody ogtagorcuma timsort algorithm-y vory irakanum merge sort-i u inserton sorti
+combination-a
+"""
 
+# -------------------------
